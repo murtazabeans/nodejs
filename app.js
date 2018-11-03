@@ -82,7 +82,7 @@ var order = function(req, res) {
                     );
             });
 }
-//this is a function
+
 var handle_post = function (req, res) {
     console.log( "Post: " + "Action: " +  req.body.event + " State: " + req.body.state + "\n" ) ;
     var state = "" + req.body.state ;
